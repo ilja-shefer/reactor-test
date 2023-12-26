@@ -2,7 +2,7 @@ package com.reactor.controllers;
 
 import com.reactor.clients.BingClient;
 import com.reactor.clients.GoogleClient;
-import com.reactor.exeptions.ClientException;
+import com.reactor.exceptions.ClientException;
 import com.reactor.models.Response;
 import com.reactor.processors.ResponseProcessor;
 import org.springframework.web.bind.annotation.GetMapping;

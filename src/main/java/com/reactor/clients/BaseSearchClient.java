@@ -1,11 +1,8 @@
 package com.reactor.clients;
 
-import com.reactor.exeptions.ClientException;
-import org.springframework.http.HttpStatus;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
 
-import java.util.function.Consumer;
 import java.util.logging.Logger;
 
 public class BaseSearchClient {

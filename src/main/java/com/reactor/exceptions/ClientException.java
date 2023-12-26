@@ -1,4 +1,4 @@
-package com.reactor.exeptions;
+package com.reactor.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
